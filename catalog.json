@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-20T15:00:00Z",
+  "updatedAt": "2026-06-20T18:00:00Z",
   "categories": [
     {
       "id": "system",
@@ -26,15 +26,6 @@
       "category": "system",
       "storeProductId": "9NM2BN1X33CQ",
       "iconUrl": "https://andelby.github.io/winbar-showcase/assets/system-metrics.png",
-      "heroImageUrl": "",
-      "minimumHostVersion": "1.0.5",
-      "featured": true,
-      "tags": [
-        "CPU",
-        "Memory",
-        "GPU",
-        "Performance"
-      ],
       "localizations": {
         "it-IT": {
           "name": "Metriche di sistema",
@@ -53,14 +44,6 @@
       "category": "media",
       "storeProductId": "9NBVCHS7JR0C",
       "iconUrl": "https://andelby.github.io/winbar-showcase/assets/media-now-playing.png",
-      "heroImageUrl": "",
-      "minimumHostVersion": "1.0.5",
-      "featured": true,
-      "tags": [
-        "Music",
-        "Playback",
-        "Media"
-      ],
       "localizations": {
         "it-IT": {
           "name": "Media in riproduzione",
