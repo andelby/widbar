@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-20T18:00:00Z",
+  "updatedAt": "2026-06-21T12:00:00Z",
   "categories": [
     {
       "id": "system",
       "name": "System",
-      "glyph": "\ue950",
+      "glyph": "",
       "order": 10
     },
     {
       "id": "media",
       "name": "Media",
-      "glyph": "\ue8d6",
+      "glyph": "",
       "order": 20
     }
   ],
@@ -31,6 +31,71 @@
           "name": "Metriche di sistema",
           "summary": "Metriche in tempo reale per CPU, memoria, GPU, disco, rete e temperature.",
           "description": "Controlla il PC direttamente dalla taskbar di Windows con layout, colori e viste dettagliate configurabili."
+        },
+        "de-DE": {
+          "name": "Systemmetriken",
+          "summary": "Live-Werte für CPU, Arbeitsspeicher, GPU, Speicher, Netzwerk und Temperaturen.",
+          "description": "Überwache deinen PC direkt über die Windows-Taskleiste, mit konfigurierbaren Layouts, Farben und detaillierten Leistungsansichten."
+        },
+        "es-ES": {
+          "name": "Métricas del sistema",
+          "summary": "Métricas en vivo de CPU, memoria, GPU, almacenamiento, red y temperatura.",
+          "description": "Controla tu PC directamente desde la barra de tareas de Windows, con diseños y colores configurables y vistas de rendimiento detalladas."
+        },
+        "fr-FR": {
+          "name": "Métriques système",
+          "summary": "Mesures en direct du processeur, de la mémoire, du GPU, du stockage, du réseau et de la température.",
+          "description": "Surveillez votre PC directement depuis la barre des tâches Windows, avec des dispositions et des couleurs configurables et des vues de performances détaillées."
+        },
+        "ja-JP": {
+          "name": "システム メトリック",
+          "summary": "CPU、メモリ、GPU、ストレージ、ネットワーク、温度をリアルタイムで表示します。",
+          "description": "Windows のタスクバーから PC を直接モニタリングできます。レイアウトや色をカスタマイズでき、詳細なパフォーマンス表示も利用できます。"
+        },
+        "ko-KR": {
+          "name": "시스템 메트릭",
+          "summary": "CPU, 메모리, GPU, 저장소, 네트워크, 온도를 실시간으로 표시합니다.",
+          "description": "Windows 작업 표시줄에서 바로 PC를 모니터링하세요. 레이아웃과 색상을 설정할 수 있고 자세한 성능 보기를 제공합니다."
+        },
+        "nl-NL": {
+          "name": "Systeemstatistieken",
+          "summary": "Live waarden voor CPU, geheugen, GPU, opslag, netwerk en temperatuur.",
+          "description": "Houd je pc rechtstreeks vanaf de Windows-taakbalk in de gaten, met instelbare indelingen, kleuren en gedetailleerde prestatieweergaven."
+        },
+        "pl-PL": {
+          "name": "Metryki systemu",
+          "summary": "Wartości na żywo dla procesora, pamięci, GPU, dysku, sieci i temperatury.",
+          "description": "Monitoruj komputer bezpośrednio z paska zadań Windows, z konfigurowalnymi układami, kolorami i szczegółowymi widokami wydajności."
+        },
+        "pt-BR": {
+          "name": "Métricas do sistema",
+          "summary": "Métricas ao vivo de CPU, memória, GPU, armazenamento, rede e temperatura.",
+          "description": "Monitore seu PC diretamente pela barra de tarefas do Windows, com layouts e cores configuráveis e visões detalhadas de desempenho."
+        },
+        "pt-PT": {
+          "name": "Métricas do sistema",
+          "summary": "Métricas em direto de CPU, memória, GPU, armazenamento, rede e temperatura.",
+          "description": "Monitorize o seu PC diretamente a partir da barra de tarefas do Windows, com esquemas e cores configuráveis e vistas de desempenho detalhadas."
+        },
+        "ru-RU": {
+          "name": "Метрики системы",
+          "summary": "Показатели ЦП, памяти, GPU, накопителя, сети и температуры в реальном времени.",
+          "description": "Следите за компьютером прямо с панели задач Windows: настраиваемые макеты, цвета и подробные представления производительности."
+        },
+        "uk-UA": {
+          "name": "Метрики системи",
+          "summary": "Показники ЦП, пам'яті, GPU, накопичувача, мережі та температури в реальному часі.",
+          "description": "Стежте за комп'ютером прямо з панелі завдань Windows: настроювані макети, кольори та докладні представлення продуктивності."
+        },
+        "zh-CN": {
+          "name": "系统指标",
+          "summary": "实时显示 CPU、内存、GPU、存储、网络和温度。",
+          "description": "直接从 Windows 任务栏监控你的电脑，布局和颜色可配置，并提供详细的性能视图。"
+        },
+        "zh-TW": {
+          "name": "系統指標",
+          "summary": "即時顯示 CPU、記憶體、GPU、儲存、網路和溫度。",
+          "description": "直接從 Windows 工作列監控你的電腦，版面配置與顏色可自訂，並提供詳細的效能檢視。"
         }
       }
     },
@@ -49,6 +114,71 @@
           "name": "Media in riproduzione",
           "summary": "Visualizza e controlla musica, video e contenuti del browser dalla taskbar.",
           "description": "Un widget multimediale con copertina, titolo, artista, sorgente, timeline e controlli di riproduzione."
+        },
+        "de-DE": {
+          "name": "Medien: Wiedergabe",
+          "summary": "Musik, Video und Browser-Wiedergabe direkt aus der Taskleiste sehen und steuern.",
+          "description": "Ein elegantes Wiedergabe-Widget mit Cover, Titel, Interpret, Quelle, Zeitleiste und Wiedergabesteuerung."
+        },
+        "es-ES": {
+          "name": "Reproducción multimedia",
+          "summary": "Ve y controla la reproducción de música, vídeo y navegador desde la barra de tareas.",
+          "description": "Un widget de reproducción cuidado, con carátula, título, artista, fuente, línea de tiempo y controles de reproducción."
+        },
+        "fr-FR": {
+          "name": "Lecture en cours",
+          "summary": "Voyez et contrôlez la lecture de musique, de vidéo et du navigateur depuis la barre des tâches.",
+          "description": "Un widget de lecture soigné, avec pochette, titre, artiste, source, ligne de temps et commandes de lecture."
+        },
+        "ja-JP": {
+          "name": "再生中のメディア",
+          "summary": "音楽、動画、ブラウザーの再生をタスクバーから確認して操作できます。",
+          "description": "アートワーク、タイトル、アーティスト、ソース、シークバー、再生コントロールを備えた洗練された再生ウィジェットです。"
+        },
+        "ko-KR": {
+          "name": "재생 중인 미디어",
+          "summary": "음악, 동영상, 브라우저 재생을 작업 표시줄에서 보고 제어하세요.",
+          "description": "앨범 아트, 제목, 아티스트, 원본, 타임라인, 재생 컨트롤을 갖춘 깔끔한 재생 위젯입니다."
+        },
+        "nl-NL": {
+          "name": "Media: nu afgespeeld",
+          "summary": "Bekijk en bedien muziek-, video- en browserweergave vanaf de taakbalk.",
+          "description": "Een verzorgde nu-afspelend-widget met albumhoes, titel, artiest, bron, tijdlijn en afspeelknoppen."
+        },
+        "pl-PL": {
+          "name": "Teraz odtwarzane",
+          "summary": "Podglądaj i steruj odtwarzaniem muzyki, wideo i przeglądarki z paska zadań.",
+          "description": "Dopracowany widżet odtwarzania z okładką, tytułem, wykonawcą, źródłem, osią czasu i sterowaniem odtwarzaniem."
+        },
+        "pt-BR": {
+          "name": "Reprodução de mídia",
+          "summary": "Veja e controle a reprodução de música, vídeo e navegador pela barra de tarefas.",
+          "description": "Um widget de reprodução caprichado, com capa, título, artista, fonte, linha do tempo e controles de reprodução."
+        },
+        "pt-PT": {
+          "name": "Reprodução de multimédia",
+          "summary": "Veja e controle a reprodução de música, vídeo e navegador a partir da barra de tarefas.",
+          "description": "Um widget de reprodução cuidado, com capa, título, artista, fonte, linha de tempo e controlos de reprodução."
+        },
+        "ru-RU": {
+          "name": "Сейчас играет",
+          "summary": "Просматривайте и управляйте воспроизведением музыки, видео и браузера с панели задач.",
+          "description": "Аккуратный виджет воспроизведения с обложкой, названием, исполнителем, источником, шкалой времени и элементами управления."
+        },
+        "uk-UA": {
+          "name": "Зараз відтворюється",
+          "summary": "Переглядайте та керуйте відтворенням музики, відео й браузера з панелі завдань.",
+          "description": "Охайний віджет відтворення з обкладинкою, назвою, виконавцем, джерелом, шкалою часу та елементами керування."
+        },
+        "zh-CN": {
+          "name": "正在播放",
+          "summary": "从任务栏查看并控制音乐、视频和浏览器的播放。",
+          "description": "精致的播放小组件，包含封面、标题、艺术家、来源、进度条和播放控件。"
+        },
+        "zh-TW": {
+          "name": "正在播放",
+          "summary": "從工作列檢視並控制音樂、影片和瀏覽器的播放。",
+          "description": "精緻的播放小工具，包含封面、標題、演出者、來源、時間軸和播放控制項。"
         }
       }
     }
