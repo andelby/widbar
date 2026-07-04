@@ -3,51 +3,209 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark light">
-  <title>WidBar Widget Showcase</title>
-  <meta name="description" content="Discover Microsoft Store widgets for WidBar.">
+  <meta name="color-scheme" content="dark">
+  <title>WidBar - Windows taskbar widgets</title>
+  <meta name="description" content="WidBar adds clean, customizable widgets to the Windows 11 taskbar. Browse available widgets and install them from Microsoft Store.">
+  <link rel="icon" href="assets/widbar-logo.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="shell">
-    <a class="brand" href="./" aria-label="WidBar widget showcase">
-      <span class="brand-mark">W</span>
+  <header class="site-header">
+    <a class="brand" href="https://apps.microsoft.com/detail/9pkldnm83tp9" aria-label="Download WidBar from Microsoft Store">
+      <img class="brand-logo" src="assets/widbar-logo.png" alt="" aria-hidden="true">
       <span>
         <strong>WidBar</strong>
-        <small>Widget Showcase</small>
+        <small>Windows 11 taskbar widgets</small>
       </span>
     </a>
-    <a class="primary-link" href="https://apps.microsoft.com/detail/9pkldnm83tp9">
-      Get WidBar
-    </a>
+
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="#features">Features</a>
+      <a href="#showcase">Widgets</a>
+      <a href="#developers">Developers</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
   <main>
-    <section class="intro">
-      <p class="eyebrow">MICROSOFT STORE EXTENSIONS</p>
-      <h1>Make the Windows taskbar yours.</h1>
-      <p>Browse trusted widgets built for WidBar. Installation and updates are handled securely by Microsoft Store.</p>
+    <section class="hero" id="overview">
+      <div class="hero-copy">
+        <p class="eyebrow">Built for Windows 11</p>
+        <h1>WidBar adds widgets to your Windows 11 taskbar.</h1>
+        <p class="hero-text">
+          WidBar lets you place compact widgets in open spaces on the taskbar, so performance,
+          media controls and small tools stay visible without taking over your desktop.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://apps.microsoft.com/detail/9pkldnm83tp9">Install from Microsoft Store</a>
+          <a class="button button-secondary" href="#showcase">Browse widgets</a>
+        </div>
+      </div>
+
+      <figure class="hero-composition" aria-label="WidBar app and taskbar widgets">
+        <img class="hero-layer hero-layer-main" src="assets/widbar-layout.png" alt="WidBar layout page showing widgets arranged on the Windows taskbar">
+        <img class="hero-layer hero-layer-media" src="assets/media-flyout.png" alt="Media widget flyout with album artwork and playback controls">
+        <img class="hero-layer hero-layer-metrics" src="assets/system-metrics-flyout.png" alt="System Metrics widget flyout with live performance graphs">
+      </figure>
     </section>
 
-    <section class="catalog" aria-labelledby="catalog-title">
-      <div class="catalog-heading">
+    <section class="section" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">Everyday tools</p>
+        <h2>Designed to stay helpful, not noisy.</h2>
+        <p>WidBar keeps the experience close to Windows: quiet controls, native-feeling flyouts and widgets that stay compact until you need more detail.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <img src="assets/system-metrics-flyout.png" alt="System Metrics widget flyout with CPU, memory, GPU and storage information">
+          <h3>See what your PC is doing</h3>
+          <p>System Metrics shows CPU, memory, GPU, disk, network and temperature information in a compact taskbar view.</p>
+        </article>
+
+        <article class="feature-card">
+          <img src="assets/media-flyout.png" alt="Media widget flyout with artwork, timeline and playback controls">
+          <h3>Control media faster</h3>
+          <p>Media Now Playing brings artwork, title, source and playback controls to your taskbar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section workflow-section">
+      <div class="section-heading">
+        <p class="eyebrow">How it works</p>
+        <h2>Start simple. Customize when you want.</h2>
+      </div>
+
+      <div class="workflow">
+        <article>
+          <span class="step-number">1</span>
+          <h3>Install WidBar</h3>
+          <p>WidBar is the manager app. It handles layout, taskbar placement and settings.</p>
+        </article>
+        <article>
+          <span class="step-number">2</span>
+          <h3>Add widgets</h3>
+          <p>Install available widgets from Microsoft Store and they appear in the WidBar catalog.</p>
+        </article>
+        <article>
+          <span class="step-number">3</span>
+          <h3>Place and tune</h3>
+          <p>Drag widgets into free taskbar spaces, then configure each one for the way you work.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section showcase-section" id="showcase">
+      <div class="showcase-heading">
         <div>
-          <h2 id="catalog-title">Available widgets</h2>
+          <p class="eyebrow">Widget showcase</p>
+          <h2>Browse widgets for WidBar.</h2>
           <p id="status">Loading the catalog...</p>
         </div>
         <label class="search">
-          <span aria-hidden="true">&#x2315;</span>
+          <span aria-hidden="true">Search</span>
           <input id="search" type="search" placeholder="Search widgets" autocomplete="off">
         </label>
       </div>
-      <div id="widgets" class="widget-grid" aria-live="polite"></div>
+
+      <div class="catalog-layout">
+        <aside class="category-panel" aria-label="Widget categories">
+          <h3>Categories</h3>
+          <div id="categoryFilters" class="category-list"></div>
+        </aside>
+
+        <div>
+          <div id="widgets" class="widget-grid" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section developer-section" id="developers">
+      <div class="section-heading">
+        <p class="eyebrow">For developers</p>
+        <h2>Build a widget for the WidBar taskbar.</h2>
+        <p>
+          WidBar widgets are packaged as Microsoft Store extensions. Start from the public
+          template, design your preview, flyout and settings, then publish your widget for
+          WidBar users to discover.
+        </p>
+      </div>
+
+      <div class="developer-grid">
+        <article class="developer-card">
+          <span class="developer-step">01</span>
+          <h3>Start from the template</h3>
+          <p>Use the WidBar widget template to get the project structure, manifest and packaging setup ready.</p>
+          <a href="https://github.com/andelby/widbar-widget-template">Open template</a>
+        </article>
+
+        <article class="developer-card">
+          <span class="developer-step">02</span>
+          <h3>Create the widget experience</h3>
+          <p>Build a compact taskbar preview, a richer flyout and optional settings so users can tune the widget.</p>
+          <a href="https://github.com/andelby/widbar-widget-template/wiki/Preview-Flyout-Settings">Preview, flyout and settings</a>
+        </article>
+
+        <article class="developer-card">
+          <span class="developer-step">03</span>
+          <h3>Prepare for distribution</h3>
+          <p>Package your widget as a Store app extension and make sure the metadata is clear for WidBar users.</p>
+          <a href="https://github.com/andelby/widbar-widget-template/wiki">Read the guide</a>
+        </article>
+      </div>
+
+      <div class="developer-panel">
+        <div>
+          <h3>Want your widget in the showcase?</h3>
+          <p>
+            The showcase is powered by a public catalog. Once your widget is available,
+            share the Store link and catalog metadata so it can be reviewed for inclusion.
+          </p>
+        </div>
+        <div class="developer-actions">
+          <a class="button button-primary" href="https://github.com/andelby/widbar-widget-template/wiki">Developer wiki</a>
+          <a class="button button-secondary" href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Questions, support or widget submissions.</h2>
+        <p>
+          Reach out for help with WidBar, feedback about the app, or to discuss a widget
+          you would like to publish for the community.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="https://discord.com/invite/JxyNUmznt" aria-label="Join the WidBar Discord server">
+          <span>Discord</span>
+          <strong>Join the community</strong>
+          <small>Support, feedback and widget development discussion.</small>
+        </a>
+
+        <a class="contact-card" href="https://www.linkedin.com/in/andreadelbello/" aria-label="Open LinkedIn profile">
+          <span>LinkedIn</span>
+          <strong>Andrea Del Bello</strong>
+          <small>Product updates and professional contact.</small>
+        </a>
+      </div>
+    </section>
+
+    <section class="section privacy-teaser">
+      <div class="privacy-panel">
+        <div>
+          <p class="eyebrow">Privacy</p>
+          <h2>Clear privacy information.</h2>
+          <p>Read how the WidBar website and widget catalog handle data.</p>
+        </div>
+        <a class="button button-secondary" href="privacy.html">Open privacy page</a>
+      </div>
     </section>
   </main>
-
-  <footer>
-    <span>WidBar widgets run as Microsoft Store AppExtensions.</span>
-    <a href="catalog.json">View catalog JSON</a>
-  </footer>
 
   <template id="widget-template">
     <article class="widget-card">
@@ -59,12 +217,14 @@
         </div>
       </div>
       <p class="summary"></p>
+      <p class="description"></p>
       <div class="widget-bottom">
         <div class="tags"></div>
         <a class="store-link">View in Store</a>
       </div>
     </article>
   </template>
+
   <script src="app.js" defer></script>
 </body>
 </html>
