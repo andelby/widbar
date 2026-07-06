@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-21T12:00:00Z",
+  "updatedAt": "2026-07-06T12:00:00Z",
   "categories": [
     {
       "id": "system",
@@ -13,6 +13,18 @@
       "name": "Media",
       "glyph": "",
       "order": 20
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "glyph": "",
+      "order": 30
+    },
+    {
+      "id": "information",
+      "name": "Information",
+      "glyph": "",
+      "order": 40
     }
   ],
   "widgets": [
@@ -179,6 +191,172 @@
           "name": "正在播放",
           "summary": "從工作列檢視並控制音樂、影片和瀏覽器的播放。",
           "description": "精緻的播放小工具，包含封面、標題、演出者、來源、時間軸和播放控制項。"
+        }
+      }
+    },
+    {
+      "id": "pomodoro-focus",
+      "pluginId": "com.widbar.pomodoro",
+      "name": "Pomodoro Focus",
+      "summary": "Pomodoro timer and stopwatch for your Windows taskbar.",
+      "description": "Stay focused with customizable Pomodoro sessions or track elapsed time with the built-in stopwatch, directly from the taskbar.",
+      "publisher": "Andrea Del Bello",
+      "category": "productivity",
+      "storeProductId": "9NWRJ4D65DHS",
+      "iconUrl": "https://andelby.github.io/winbar-showcase/assets/pomodoro-focus.png",
+      "localizations": {
+        "it-IT": {
+          "name": "Pomodoro Focus",
+          "summary": "Timer Pomodoro e cronometro per la taskbar di Windows.",
+          "description": "Rimani concentrato con sessioni Pomodoro personalizzabili o misura il tempo trascorso con il cronometro integrato, direttamente dalla taskbar."
+        },
+        "de-DE": {
+          "name": "Pomodoro Focus",
+          "summary": "Pomodoro-Timer und Stoppuhr für die Windows-Taskleiste.",
+          "description": "Bleiben Sie konzentriert mit anpassbaren Pomodoro-Sitzungen oder messen Sie die verstrichene Zeit mit der integrierten Stoppuhr direkt über die Taskleiste."
+        },
+        "es-ES": {
+          "name": "Pomodoro Focus",
+          "summary": "Temporizador Pomodoro y cronómetro para la barra de tareas de Windows.",
+          "description": "Mantente concentrado con sesiones Pomodoro personalizables o mide el tiempo transcurrido con el cronómetro integrado directamente desde la barra de tareas."
+        },
+        "fr-FR": {
+          "name": "Pomodoro Focus",
+          "summary": "Minuteur Pomodoro et chronomètre pour la barre des tâches Windows.",
+          "description": "Restez concentré avec des sessions Pomodoro personnalisables ou mesurez le temps écoulé avec le chronomètre intégré, directement depuis la barre des tâches."
+        },
+        "ja-JP": {
+          "name": "Pomodoro Focus",
+          "summary": "Windows タスクバー用のポモドーロタイマーとストップウォッチ。",
+          "description": "カスタマイズ可能なポモドーロセッションで集中を保ち、内蔵ストップウォッチで経過時間をタスクバーから確認できます。"
+        },
+        "ko-KR": {
+          "name": "Pomodoro Focus",
+          "summary": "Windows 작업 표시줄용 포모도로 타이머와 스톱워치.",
+          "description": "사용자 지정 가능한 포모도로 세션으로 집중하거나 내장 스톱워치로 경과 시간을 작업 표시줄에서 바로 확인하세요."
+        },
+        "nl-NL": {
+          "name": "Pomodoro Focus",
+          "summary": "Pomodoro-timer en stopwatch voor de Windows-taakbalk.",
+          "description": "Blijf gefocust met aanpasbare Pomodoro-sessies of meet verstreken tijd met de ingebouwde stopwatch, rechtstreeks vanaf de taakbalk."
+        },
+        "pl-PL": {
+          "name": "Pomodoro Focus",
+          "summary": "Timer Pomodoro i stoper na pasek zadań Windows.",
+          "description": "Skup się dzięki konfigurowalnym sesjom Pomodoro lub mierz upływ czasu za pomocą wbudowanego stopera bezpośrednio z paska zadań."
+        },
+        "pt-BR": {
+          "name": "Pomodoro Focus",
+          "summary": "Timer Pomodoro e cronômetro para a barra de tarefas do Windows.",
+          "description": "Mantenha o foco com sessões Pomodoro personalizáveis ou acompanhe o tempo decorrido com o cronômetro integrado diretamente pela barra de tarefas."
+        },
+        "pt-PT": {
+          "name": "Pomodoro Focus",
+          "summary": "Temporizador Pomodoro e cronómetro para a barra de tarefas do Windows.",
+          "description": "Mantenha-se focado com sessões Pomodoro personalizáveis ou acompanhe o tempo decorrido com o cronómetro integrado diretamente na barra de tarefas."
+        },
+        "ru-RU": {
+          "name": "Pomodoro Focus",
+          "summary": "Таймер Pomodoro и секундомер для панели задач Windows.",
+          "description": "Сохраняйте концентрацию с помощью настраиваемых сессий Pomodoro или отслеживайте прошедшее время встроенным секундомером прямо с панели задач."
+        },
+        "uk-UA": {
+          "name": "Pomodoro Focus",
+          "summary": "Таймер Pomodoro і секундомір для панелі завдань Windows.",
+          "description": "Залишайтеся зосередженими завдяки настроюваним сесіям Pomodoro або відстежуйте минулий час за допомогою вбудованого секундоміра прямо з панелі завдань."
+        },
+        "zh-CN": {
+          "name": "Pomodoro Focus",
+          "summary": "适用于 Windows 任务栏的番茄钟和秒表。",
+          "description": "通过可自定义的番茄钟保持专注，或使用内置秒表直接从任务栏计时。"
+        },
+        "zh-TW": {
+          "name": "Pomodoro Focus",
+          "summary": "適用於 Windows 工作列的番茄鐘與碼錶。",
+          "description": "使用可自訂的番茄鐘保持專注，或透過內建碼錶直接從工作列追蹤經過時間。"
+        }
+      }
+    },
+    {
+      "id": "stock-watcher",
+      "pluginId": "com.widbar.stockwatcher",
+      "name": "Stock Watcher",
+      "summary": "Follow your favorite stocks directly from the Windows taskbar.",
+      "description": "See prices and daily performance at a glance, with detailed market information just a click away.",
+      "publisher": "Andrea Del Bello",
+      "category": "information",
+      "storeProductId": "9MWK4X22QL4M",
+      "iconUrl": "https://andelby.github.io/winbar-showcase/assets/stock-watcher.png",
+      "localizations": {
+        "it-IT": {
+          "name": "Stock Watcher",
+          "summary": "Segui i tuoi titoli preferiti direttamente dalla taskbar di Windows.",
+          "description": "Visualizza prezzi e andamento giornaliero a colpo d'occhio, con informazioni di mercato più dettagliate a portata di clic."
+        },
+        "de-DE": {
+          "name": "Stock Watcher",
+          "summary": "Verfolge deine Lieblingsaktien direkt über die Windows-Taskleiste.",
+          "description": "Sieh Kurse und Tagesentwicklung auf einen Blick, mit detaillierten Marktinformationen nur einen Klick entfernt."
+        },
+        "es-ES": {
+          "name": "Stock Watcher",
+          "summary": "Sigue tus acciones favoritas directamente desde la barra de tareas de Windows.",
+          "description": "Consulta precios y rendimiento diario de un vistazo, con información de mercado más detallada a un clic."
+        },
+        "fr-FR": {
+          "name": "Stock Watcher",
+          "summary": "Suivez vos actions favorites directement depuis la barre des tâches Windows.",
+          "description": "Consultez les cours et les variations du jour en un coup d'œil, avec des informations de marché détaillées à portée de clic."
+        },
+        "ja-JP": {
+          "name": "Stock Watcher",
+          "summary": "お気に入りの株価を Windows タスクバーから確認できます。",
+          "description": "価格や日中の値動きをすばやく確認し、クリックするだけで詳細な市場情報を表示できます。"
+        },
+        "ko-KR": {
+          "name": "Stock Watcher",
+          "summary": "관심 종목을 Windows 작업 표시줄에서 바로 확인하세요.",
+          "description": "가격과 일일 변동을 한눈에 보고, 클릭 한 번으로 자세한 시장 정보를 확인할 수 있습니다."
+        },
+        "nl-NL": {
+          "name": "Stock Watcher",
+          "summary": "Volg je favoriete aandelen rechtstreeks vanaf de Windows-taakbalk.",
+          "description": "Bekijk koersen en dagelijkse prestaties in één oogopslag, met gedetailleerde marktinformatie binnen één klik."
+        },
+        "pl-PL": {
+          "name": "Stock Watcher",
+          "summary": "Śledź ulubione akcje bezpośrednio z paska zadań Windows.",
+          "description": "Sprawdzaj ceny i dzienne wyniki jednym rzutem oka, a szczegółowe informacje rynkowe otwieraj jednym kliknięciem."
+        },
+        "pt-BR": {
+          "name": "Stock Watcher",
+          "summary": "Acompanhe suas ações favoritas diretamente pela barra de tarefas do Windows.",
+          "description": "Veja preços e desempenho diário rapidamente, com informações de mercado mais detalhadas a um clique."
+        },
+        "pt-PT": {
+          "name": "Stock Watcher",
+          "summary": "Acompanhe as suas ações favoritas diretamente a partir da barra de tarefas do Windows.",
+          "description": "Veja preços e desempenho diário num instante, com informações de mercado mais detalhadas à distância de um clique."
+        },
+        "ru-RU": {
+          "name": "Stock Watcher",
+          "summary": "Следите за избранными акциями прямо с панели задач Windows.",
+          "description": "Просматривайте цены и дневную динамику с первого взгляда, а подробную рыночную информацию открывайте одним щелчком."
+        },
+        "uk-UA": {
+          "name": "Stock Watcher",
+          "summary": "Стежте за улюбленими акціями прямо з панелі завдань Windows.",
+          "description": "Переглядайте ціни й денну динаміку одним поглядом, а докладні ринкові дані відкривайте одним клацанням."
+        },
+        "zh-CN": {
+          "name": "Stock Watcher",
+          "summary": "直接从 Windows 任务栏关注你喜爱的股票。",
+          "description": "一眼查看价格和当日表现，点击即可打开更详细的市场信息。"
+        },
+        "zh-TW": {
+          "name": "Stock Watcher",
+          "summary": "直接從 Windows 工作列追蹤你喜愛的股票。",
+          "description": "一眼查看價格和當日表現，點一下即可開啟更詳細的市場資訊。"
         }
       }
     }
