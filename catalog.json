@@ -43,7 +43,7 @@
       "publisher": "Andrea Del Bello",
       "category": "system",
       "storeProductId": "9NM2BN1X33CQ",
-      "iconUrl": "https://andelby.github.io/winbar-showcase/assets/system-metrics.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/system-metrics.png",
       "localizations": {
         "it-IT": {
           "name": "Metriche di sistema",
@@ -126,7 +126,7 @@
       "publisher": "Andrea Del Bello",
       "category": "media",
       "storeProductId": "9NBVCHS7JR0C",
-      "iconUrl": "https://andelby.github.io/winbar-showcase/assets/media-now-playing.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/media-now-playing.png",
       "localizations": {
         "it-IT": {
           "name": "Media in riproduzione",
@@ -209,7 +209,7 @@
       "publisher": "Andrea Del Bello",
       "category": "productivity",
       "storeProductId": "9NWRJ4D65DHS",
-      "iconUrl": "https://andelby.github.io/winbar-showcase/assets/pomodoro-focus.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/pomodoro-focus.png",
       "localizations": {
         "it-IT": {
           "name": "Pomodoro Focus",
@@ -292,7 +292,7 @@
       "publisher": "Andrea Del Bello",
       "category": "information",
       "storeProductId": "9MWK4X22QL4M",
-      "iconUrl": "https://andelby.github.io/winbar-showcase/assets/stock-watcher.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/stock-watcher.png",
       "localizations": {
         "it-IT": {
           "name": "Stock Watcher",
