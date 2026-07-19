@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-06T12:00:00Z",
+  "updatedAt": "2026-07-19T12:00:00Z",
   "categories": [
     {
       "id": "system",
@@ -25,6 +25,12 @@
       "name": "Information",
       "glyph": "",
       "order": 40
+    },
+    {
+      "id": "utility",
+      "name": "Utility",
+      "glyph": "\uE90F",
+      "order": 50
     }
   ],
   "widgets": [
@@ -357,6 +363,89 @@
           "name": "Stock Watcher",
           "summary": "直接從 Windows 工作列追蹤你喜愛的股票。",
           "description": "一眼查看價格和當日表現，點一下即可開啟更詳細的市場資訊。"
+        }
+      }
+    },
+    {
+      "id": "shelf",
+      "pluginId": "com.widbar.shelf",
+      "name": "Shelf",
+      "summary": "Keep files, folders and clipboard items within reach from the taskbar.",
+      "description": "Drop files onto the widget, pin folders, browse recent items and revisit clipboard history from one compact Shelf.",
+      "publisher": "Andrea Del Bello",
+      "category": "utility",
+      "storeProductId": "9P18QNL4TC4G",
+      "iconUrl": "https://andelby.github.io/winbar-showcase/assets/shelf.png",
+      "localizations": {
+        "it-IT": {
+          "name": "Shelf",
+          "summary": "File, cartelle e appunti sempre a portata di mano dalla taskbar.",
+          "description": "Trascina file sul widget, aggiungi cartelle, consulta gli elementi recenti e la cronologia degli appunti da un unico Shelf compatto."
+        },
+        "de-DE": {
+          "name": "Shelf",
+          "summary": "Dateien, Ordner und Zwischenablage direkt über die Taskleiste griffbereit.",
+          "description": "Lege Dateien auf dem Widget ab, hefte Ordner an und öffne zuletzt verwendete Elemente sowie den Zwischenablageverlauf in einem kompakten Shelf."
+        },
+        "es-ES": {
+          "name": "Shelf",
+          "summary": "Archivos, carpetas y elementos del portapapeles al alcance desde la barra de tareas.",
+          "description": "Suelta archivos en el widget, fija carpetas y consulta elementos recientes y el historial del portapapeles desde un Shelf compacto."
+        },
+        "fr-FR": {
+          "name": "Shelf",
+          "summary": "Gardez fichiers, dossiers et éléments du presse-papiers à portée de main depuis la barre des tâches.",
+          "description": "Déposez des fichiers sur le widget, épinglez des dossiers et consultez les éléments récents ainsi que l’historique du presse-papiers dans un Shelf compact."
+        },
+        "ja-JP": {
+          "name": "Shelf",
+          "summary": "ファイル、フォルダー、クリップボードの項目をタスクバーからすぐに開けます。",
+          "description": "ウィジェットにファイルをドロップし、フォルダーをピン留めして、最近使った項目やクリップボード履歴をコンパクトな Shelf から確認できます。"
+        },
+        "ko-KR": {
+          "name": "Shelf",
+          "summary": "파일, 폴더, 클립보드 항목을 작업 표시줄에서 바로 이용하세요.",
+          "description": "위젯에 파일을 놓고 폴더를 고정하며 최근 항목과 클립보드 기록을 하나의 간결한 Shelf에서 확인할 수 있습니다."
+        },
+        "nl-NL": {
+          "name": "Shelf",
+          "summary": "Houd bestanden, mappen en klemborditems binnen handbereik vanaf de taakbalk.",
+          "description": "Sleep bestanden naar de widget, zet mappen vast en bekijk recente items en je klembordgeschiedenis vanuit één compacte Shelf."
+        },
+        "pl-PL": {
+          "name": "Shelf",
+          "summary": "Pliki, foldery i elementy schowka zawsze pod ręką na pasku zadań.",
+          "description": "Upuszczaj pliki na widżet, przypinaj foldery oraz przeglądaj ostatnie elementy i historię schowka w jednym kompaktowym Shelf."
+        },
+        "pt-BR": {
+          "name": "Shelf",
+          "summary": "Mantenha arquivos, pastas e itens da área de transferência ao alcance pela barra de tarefas.",
+          "description": "Solte arquivos no widget, fixe pastas e consulte itens recentes e o histórico da área de transferência em um Shelf compacto."
+        },
+        "pt-PT": {
+          "name": "Shelf",
+          "summary": "Mantenha ficheiros, pastas e itens da área de transferência ao alcance na barra de tarefas.",
+          "description": "Largue ficheiros no widget, afixe pastas e consulte itens recentes e o histórico da área de transferência num Shelf compacto."
+        },
+        "ru-RU": {
+          "name": "Shelf",
+          "summary": "Файлы, папки и содержимое буфера обмена всегда под рукой на панели задач.",
+          "description": "Перетаскивайте файлы на виджет, закрепляйте папки и просматривайте недавние элементы и историю буфера обмена в компактном Shelf."
+        },
+        "uk-UA": {
+          "name": "Shelf",
+          "summary": "Файли, папки та вміст буфера обміну завжди під рукою на панелі завдань.",
+          "description": "Перетягуйте файли на віджет, закріплюйте папки та переглядайте нещодавні елементи й історію буфера обміну в компактному Shelf."
+        },
+        "zh-CN": {
+          "name": "Shelf",
+          "summary": "从任务栏快速访问文件、文件夹和剪贴板内容。",
+          "description": "将文件拖放到小组件，固定常用文件夹，并在紧凑的 Shelf 中查看最近项目和剪贴板历史记录。"
+        },
+        "zh-TW": {
+          "name": "Shelf",
+          "summary": "從工作列快速存取檔案、資料夾和剪貼簿內容。",
+          "description": "將檔案拖放到小工具、釘選常用資料夾，並在精簡的 Shelf 中查看最近項目和剪貼簿歷程記錄。"
         }
       }
     }
