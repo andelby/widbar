@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-19T12:00:00Z",
+  "updatedAt": "2026-07-23T12:00:00Z",
   "categories": [
     {
       "id": "system",
@@ -446,6 +446,89 @@
           "name": "Shelf",
           "summary": "從工作列快速存取檔案、資料夾和剪貼簿內容。",
           "description": "將檔案拖放到小工具、釘選常用資料夾，並在精簡的 Shelf 中查看最近項目和剪貼簿歷程記錄。"
+        }
+      }
+    },
+    {
+      "id": "weather",
+      "pluginId": "com.widbar.weather",
+      "name": "Weather",
+      "summary": "Current conditions and forecasts directly on the Windows taskbar.",
+      "description": "Check current conditions, hourly details and the 10-day forecast, save cities and customize the weather information shown on your taskbar.",
+      "publisher": "Andrea Del Bello",
+      "category": "information",
+      "storeProductId": "9N4CS86Q7NV2",
+      "iconUrl": "https://andelby.github.io/widbar/assets/weather.png",
+      "localizations": {
+        "it-IT": {
+          "name": "Meteo",
+          "summary": "Condizioni attuali e previsioni direttamente sulla taskbar di Windows.",
+          "description": "Controlla le condizioni attuali, i dettagli orari e le previsioni a 10 giorni, salva le città e personalizza le informazioni meteo mostrate sulla taskbar."
+        },
+        "de-DE": {
+          "name": "Wetter",
+          "summary": "Aktuelles Wetter und Vorhersagen direkt in der Windows-Taskleiste.",
+          "description": "Prüfe das aktuelle Wetter, stündliche Details und die 10-Tage-Vorhersage, speichere Städte und passe die Wetterinformationen in deiner Taskleiste an."
+        },
+        "es-ES": {
+          "name": "Tiempo",
+          "summary": "El tiempo actual y las previsiones directamente en la barra de tareas de Windows.",
+          "description": "Consulta el tiempo actual, los detalles por hora y la previsión de 10 días, guarda ciudades y personaliza la información meteorológica de la barra de tareas."
+        },
+        "fr-FR": {
+          "name": "Météo",
+          "summary": "La météo actuelle et les prévisions directement dans la barre des tâches Windows.",
+          "description": "Consultez la météo actuelle, les détails heure par heure et les prévisions à 10 jours, enregistrez des villes et personnalisez les informations affichées dans la barre des tâches."
+        },
+        "ja-JP": {
+          "name": "天気",
+          "summary": "現在の天気と予報を Windows のタスクバーから確認できます。",
+          "description": "現在の天気、時間ごとの詳細、10日間予報を確認し、都市を保存して、タスクバーに表示する天気情報をカスタマイズできます。"
+        },
+        "ko-KR": {
+          "name": "날씨",
+          "summary": "현재 날씨와 예보를 Windows 작업 표시줄에서 바로 확인하세요.",
+          "description": "현재 날씨, 시간별 정보, 10일 예보를 확인하고 도시를 저장하며 작업 표시줄에 표시할 날씨 정보를 맞춤 설정할 수 있습니다."
+        },
+        "nl-NL": {
+          "name": "Weer",
+          "summary": "Actueel weer en verwachtingen rechtstreeks op de Windows-taakbalk.",
+          "description": "Bekijk het actuele weer, details per uur en de 10-daagse verwachting, bewaar steden en pas de weersinformatie op je taakbalk aan."
+        },
+        "pl-PL": {
+          "name": "Pogoda",
+          "summary": "Aktualna pogoda i prognozy bezpośrednio na pasku zadań Windows.",
+          "description": "Sprawdzaj aktualną pogodę, prognozę godzinową i prognozę na 10 dni, zapisuj miasta i dostosuj informacje pogodowe wyświetlane na pasku zadań."
+        },
+        "pt-BR": {
+          "name": "Clima",
+          "summary": "Condições atuais e previsão do tempo diretamente na barra de tarefas do Windows.",
+          "description": "Veja as condições atuais, detalhes por hora e a previsão para 10 dias, salve cidades e personalize as informações exibidas na barra de tarefas."
+        },
+        "pt-PT": {
+          "name": "Meteorologia",
+          "summary": "Condições atuais e previsões diretamente na barra de tarefas do Windows.",
+          "description": "Consulte as condições atuais, os detalhes por hora e a previsão para 10 dias, guarde cidades e personalize as informações meteorológicas apresentadas na barra de tarefas."
+        },
+        "ru-RU": {
+          "name": "Погода",
+          "summary": "Текущая погода и прогноз прямо на панели задач Windows.",
+          "description": "Просматривайте текущую погоду, почасовые данные и прогноз на 10 дней, сохраняйте города и настраивайте информацию на панели задач."
+        },
+        "uk-UA": {
+          "name": "Погода",
+          "summary": "Поточна погода та прогноз безпосередньо на панелі завдань Windows.",
+          "description": "Переглядайте поточну погоду, погодинні дані та прогноз на 10 днів, зберігайте міста й налаштовуйте інформацію на панелі завдань."
+        },
+        "zh-CN": {
+          "name": "天气",
+          "summary": "直接在 Windows 任务栏查看当前天气和天气预报。",
+          "description": "查看当前天气、每小时详情和未来 10 天预报，保存城市并自定义任务栏上显示的天气信息。"
+        },
+        "zh-TW": {
+          "name": "天氣",
+          "summary": "直接在 Windows 工作列查看目前天氣與天氣預報。",
+          "description": "查看目前天氣、每小時詳細資訊與未來 10 天預報，儲存城市並自訂工作列上顯示的天氣資訊。"
         }
       }
     }
