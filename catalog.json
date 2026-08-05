@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-23T12:00:00Z",
+  "updatedAt": "2026-08-05T23:03:34Z",
   "categories": [
     {
       "id": "system",
@@ -529,6 +529,89 @@
           "name": "天氣",
           "summary": "直接在 Windows 工作列查看目前天氣與天氣預報。",
           "description": "查看目前天氣、每小時詳細資訊與未來 10 天預報，儲存城市並自訂工作列上顯示的天氣資訊。"
+        }
+      }
+    },
+    {
+      "id": "news",
+      "pluginId": "com.widbar.news",
+      "name": "News",
+      "summary": "Top stories and trusted coverage directly on your Windows taskbar.",
+      "description": "Follow Google News topics, local stories and saved articles, or add your own RSS feeds, with a customizable taskbar preview and a clean reading view.",
+      "publisher": "Andrea Del Bello",
+      "category": "information",
+      "storeProductId": "9PGD54S2M2WR",
+      "iconUrl": "https://andelby.github.io/widbar/assets/news.png",
+      "localizations": {
+        "it-IT": {
+          "name": "Notizie",
+          "summary": "Le notizie principali e più fonti direttamente sulla taskbar di Windows.",
+          "description": "Segui gli argomenti di Google News, le notizie locali e gli articoli salvati, oppure aggiungi i tuoi feed RSS, con un'anteprima personalizzabile sulla taskbar e una vista di lettura pulita."
+        },
+        "de-DE": {
+          "name": "Nachrichten",
+          "summary": "Top-Meldungen und vertrauenswürdige Berichte direkt in der Windows-Taskleiste.",
+          "description": "Verfolge Themen aus Google News, lokale Meldungen und gespeicherte Artikel oder füge eigene RSS-Feeds hinzu, mit einer anpassbaren Taskleisten-Vorschau und einer übersichtlichen Leseansicht."
+        },
+        "es-ES": {
+          "name": "Noticias",
+          "summary": "Noticias destacadas y cobertura fiable directamente en la barra de tareas de Windows.",
+          "description": "Sigue temas de Google News, noticias locales y artículos guardados, o añade tus propios canales RSS, con una vista previa personalizable en la barra de tareas y una lectura clara."
+        },
+        "fr-FR": {
+          "name": "Actualités",
+          "summary": "Les principaux titres et des sources fiables directement dans la barre des tâches Windows.",
+          "description": "Suivez les sujets Google News, les actualités locales et les articles enregistrés, ou ajoutez vos propres flux RSS, avec un aperçu personnalisable dans la barre des tâches et une vue de lecture claire."
+        },
+        "ja-JP": {
+          "name": "ニュース",
+          "summary": "主要ニュースと信頼できる報道を Windows のタスクバーから確認できます。",
+          "description": "Google ニュースのトピック、地域ニュース、保存した記事を確認したり、独自の RSS フィードを追加したりできます。タスクバーのプレビューと読みやすい表示もカスタマイズできます。"
+        },
+        "ko-KR": {
+          "name": "뉴스",
+          "summary": "주요 뉴스와 신뢰할 수 있는 보도를 Windows 작업 표시줄에서 바로 확인하세요.",
+          "description": "Google 뉴스 주제, 지역 뉴스, 저장한 기사를 확인하거나 직접 RSS 피드를 추가하고, 작업 표시줄 미리 보기와 깔끔한 읽기 화면을 원하는 대로 설정할 수 있습니다."
+        },
+        "nl-NL": {
+          "name": "Nieuws",
+          "summary": "Belangrijk nieuws en betrouwbare berichtgeving rechtstreeks op de Windows-taakbalk.",
+          "description": "Volg onderwerpen uit Google Nieuws, lokaal nieuws en opgeslagen artikelen of voeg je eigen RSS-feeds toe, met een aanpasbare taakbalkweergave en een rustige leesweergave."
+        },
+        "pl-PL": {
+          "name": "Wiadomości",
+          "summary": "Najważniejsze wiadomości i sprawdzone źródła bezpośrednio na pasku zadań Windows.",
+          "description": "Śledź tematy z Google News, wiadomości lokalne i zapisane artykuły albo dodaj własne kanały RSS, korzystając z konfigurowalnego podglądu na pasku zadań i przejrzystego widoku czytania."
+        },
+        "pt-BR": {
+          "name": "Notícias",
+          "summary": "Principais notícias e cobertura confiável diretamente na barra de tarefas do Windows.",
+          "description": "Acompanhe temas do Google Notícias, notícias locais e artigos salvos, ou adicione seus próprios feeds RSS, com uma prévia personalizável na barra de tarefas e uma visualização de leitura limpa."
+        },
+        "pt-PT": {
+          "name": "Notícias",
+          "summary": "Principais notícias e cobertura de confiança diretamente na barra de tarefas do Windows.",
+          "description": "Acompanhe temas do Google Notícias, notícias locais e artigos guardados, ou adicione os seus próprios feeds RSS, com uma pré-visualização personalizável na barra de tarefas e uma vista de leitura simples."
+        },
+        "ru-RU": {
+          "name": "Новости",
+          "summary": "Главные новости и материалы проверенных источников прямо на панели задач Windows.",
+          "description": "Следите за темами Google Новостей, местными новостями и сохранёнными статьями или добавляйте собственные RSS-ленты, настраивая предпросмотр на панели задач и удобный режим чтения."
+        },
+        "uk-UA": {
+          "name": "Новини",
+          "summary": "Головні новини та матеріали надійних джерел безпосередньо на панелі завдань Windows.",
+          "description": "Стежте за темами Google Новин, місцевими новинами й збереженими статтями або додавайте власні RSS-канали, налаштовуючи попередній перегляд на панелі завдань і зручний режим читання."
+        },
+        "zh-CN": {
+          "name": "新闻",
+          "summary": "直接在 Windows 任务栏查看头条新闻和可信来源的报道。",
+          "description": "关注 Google 新闻主题、本地新闻和已保存的文章，或添加自己的 RSS 源，并自定义任务栏预览和简洁的阅读视图。"
+        },
+        "zh-TW": {
+          "name": "新聞",
+          "summary": "直接在 Windows 工作列查看焦點新聞與可信來源的報導。",
+          "description": "追蹤 Google 新聞主題、在地新聞與已儲存的文章，或加入自己的 RSS 來源，並自訂工作列預覽與簡潔的閱讀檢視。"
         }
       }
     }
