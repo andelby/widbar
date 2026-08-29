@@ -7,7 +7,7 @@
   <title>WidBar - Windows taskbar widgets</title>
   <meta name="description" content="WidBar adds clean, customizable widgets to the Windows 11 taskbar. Browse available widgets and install them from Microsoft Store.">
   <link rel="icon" href="assets/widbar-logo.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
   <header class="site-header">
@@ -31,7 +31,7 @@
     <section class="hero" id="overview">
       <div class="hero-copy">
         <p class="eyebrow">Built for Windows 11</p>
-        <h1>WidBar adds widgets to your Windows 11 taskbar.</h1>
+        <h1>WidBar adds widgets to your Windows&nbsp;11 taskbar.</h1>
         <p class="hero-text">
           WidBar lets you place compact widgets in open spaces on the taskbar, so performance,
           media controls and small tools stay visible without taking over your desktop.
@@ -43,8 +43,10 @@
       </div>
 
       <figure class="hero-composition" aria-label="WidBar app and taskbar widgets">
-        <img class="hero-layer hero-layer-main" src="assets/widbar-layout.png" alt="WidBar layout page showing widgets arranged on the Windows taskbar">
+        <img class="hero-layer hero-layer-main" src="assets/widbar-layout.png?v=2" alt="WidBar layout page showing widgets arranged on the Windows taskbar">
+        <img class="hero-layer hero-layer-weather" src="assets/weather-flyout.png?v=2" alt="Weather widget flyout with current conditions and a ten day forecast">
         <img class="hero-layer hero-layer-media" src="assets/media-flyout.png" alt="Media widget flyout with album artwork and playback controls">
+        <img class="hero-layer hero-layer-news" src="assets/news-flyout.png?v=2" alt="News widget flyout with top stories and sources">
         <img class="hero-layer hero-layer-metrics" src="assets/system-metrics-flyout.png" alt="System Metrics widget flyout with live performance graphs">
       </figure>
     </section>
@@ -67,6 +69,18 @@
           <img src="assets/media-flyout.png" alt="Media widget flyout with artwork, timeline and playback controls">
           <h3>Control media faster</h3>
           <p>Media Now Playing brings artwork, title, source and playback controls to your taskbar.</p>
+        </article>
+
+        <article class="feature-card">
+          <img src="assets/news-flyout.png?v=2" alt="News widget flyout with top stories, sources and related coverage">
+          <h3>Read the headlines in place</h3>
+          <p>News keeps regional headlines, trusted sources and your own RSS feeds one click away on the taskbar.</p>
+        </article>
+
+        <article class="feature-card">
+          <img src="assets/weather-flyout.png?v=2" alt="Weather widget flyout with current conditions, hourly trend and ten day forecast">
+          <h3>Check the sky without a tab</h3>
+          <p>Weather keeps the temperature on the taskbar, with the next 24 hours and ten days behind one click.</p>
         </article>
       </div>
     </section>
@@ -234,6 +248,6 @@
     </article>
   </template>
 
-  <script src="app.js" defer></script>
+  <script src="app.js?v=2" defer></script>
 </body>
 </html>
