@@ -153,9 +153,10 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, .72fr) minmax(520px, 1.28fr);
+  /* Wide enough for the headline to set in four lines rather than six. */
+  grid-template-columns: minmax(0, .84fr) minmax(520px, 1.16fr);
   align-items: center;
-  gap: clamp(34px, 6vw, 86px);
+  gap: clamp(34px, 5vw, 72px);
   min-height: min(820px, calc(100vh - 60px));
   padding: 46px 0 48px;
 }
@@ -179,9 +180,11 @@ p {
 h1 {
   margin-bottom: 18px;
   max-width: 700px;
-  font-size: clamp(2.8rem, 5vw, 4.15rem);
-  line-height: 1;
-  letter-spacing: 0;
+  font-size: clamp(2.6rem, 4.4vw, 3.9rem);
+  line-height: 1.04;
+  letter-spacing: -.01em;
+  /* Evens out the line lengths instead of leaving one orphan word per line. */
+  text-wrap: balance;
 }
 
 h2 {
@@ -232,14 +235,17 @@ h3 {
   isolation: isolate;
 }
 
+/* Soft glow behind the screenshots. */
 .hero-composition::before {
   content: "";
   position: absolute;
-  inset: 15% 4% 10% 16%;
+  inset: 0;
   z-index: -1;
-  border-radius: 16px;
-  background: linear-gradient(135deg, rgba(73, 191, 243, .2), rgba(112, 215, 122, .12));
-  opacity: .7;
+  /* Stops fade to their own hue at zero alpha. `transparent` is black, and
+     fading through it leaves a grey rectangle the size of the element. */
+  background:
+    radial-gradient(58% 46% at 66% 26%, rgba(73, 191, 243, .2), rgba(73, 191, 243, 0) 72%),
+    radial-gradient(42% 36% at 24% 78%, rgba(112, 215, 122, .1), rgba(112, 215, 122, 0) 74%);
 }
 
 .hero-layer {
@@ -248,42 +254,74 @@ h3 {
   border-radius: 8px;
   background: var(--panel);
   box-shadow: 0 28px 80px rgba(0, 0, 0, .42);
-  transition: transform .28s ease, border-color .28s ease, box-shadow .28s ease;
+  transition: transform .28s ease, scale .28s ease, border-color .28s ease, box-shadow .28s ease;
 }
 
+/* App behind, four widget flyouts fanned along the bottom. The stagger and the
+   tilt are what keep them legible; flush and straight they read as one band. */
 .hero-layer-main {
-  top: 12%;
+  top: 0;
   right: 0;
-  width: 86%;
-  z-index: 2;
+  width: 90%;
+  z-index: 1;
 }
 
-.hero-layer-media {
+.hero-layer-news {
   left: 0;
-  bottom: 3%;
-  width: 38%;
-  z-index: 4;
+  bottom: 15%;
+  width: 26%;
+  z-index: 5;
+  transform: rotate(-2deg);
   animation: heroFloat 7s ease-in-out infinite;
 }
 
-.hero-layer-metrics {
-  right: 6%;
-  bottom: 0;
-  width: 48%;
-  z-index: 3;
+.hero-layer-media {
+  left: 25%;
+  bottom: 6%;
+  width: 26%;
+  z-index: 4;
+  transform: rotate(-.6deg);
   animation: heroFloatAlt 8s ease-in-out infinite;
 }
 
+.hero-layer-weather {
+  left: 50%;
+  bottom: 13%;
+  width: 26%;
+  z-index: 3;
+  transform: rotate(.8deg);
+  animation: heroFloat 9s ease-in-out infinite;
+}
+
+.hero-layer-metrics {
+  right: 0;
+  bottom: 7%;
+  width: 27%;
+  z-index: 2;
+  transform: rotate(2deg);
+  animation: heroFloatAlt 10s ease-in-out infinite;
+}
+
+/* Hover nudges the stack apart. Each rule repeats its own tilt, or the card
+   would snap straight as soon as the pointer arrived. */
 .hero-composition:hover .hero-layer-main {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
+}
+
+.hero-composition:hover .hero-layer-news {
+  transform: translateY(-10px) rotate(-3deg);
 }
 
 .hero-composition:hover .hero-layer-media {
-  transform: translateY(-6px) rotate(-.3deg);
+  transform: translateY(-6px) rotate(-1.2deg);
+}
+
+.hero-composition:hover .hero-layer-weather {
+  transform: translateY(-8px) rotate(1.4deg);
 }
 
 .hero-composition:hover .hero-layer-metrics {
-  transform: translateY(4px) rotate(.3deg);
+  transform: translateY(-4px) rotate(3deg);
 }
 
 @keyframes heroFloat {
@@ -320,7 +358,10 @@ h3 {
 
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  /* Two across on a desktop, one when it narrows. With four screenshot-led
+     cards, a wider card shows the widget; four in a row would squeeze each to
+     under 290px and the screenshots would be unreadable. */
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 18px;
 }
 
@@ -333,23 +374,26 @@ h3 {
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, .08);
   margin-bottom: 18px;
-  transition: transform .22s ease, border-color .22s ease, opacity .22s ease;
+  transition: border-color .22s ease, opacity .22s ease;
 }
 
 .is-zoomable {
-  cursor: zoom-in;
+  cursor: pointer;
 }
 
 .is-zoomable:hover,
 .is-zoomable:focus-visible {
   border-color: rgba(73, 191, 243, .62);
-  opacity: .96;
   outline: none;
 }
 
-.feature-card > .is-zoomable:hover,
-.feature-card > .is-zoomable:focus-visible {
-  transform: scale(1.012);
+/* Only the hero cards zoom, and the one under the pointer comes to the front.
+   The zoom uses `scale` so it does not overwrite the tilt in `transform`. */
+.hero-layer.is-zoomable:hover,
+.hero-layer.is-zoomable:focus-visible {
+  z-index: 6;
+  scale: 1.12;
+  box-shadow: 0 34px 90px rgba(0, 0, 0, .55);
 }
 
 .workflow-section {
@@ -457,6 +501,7 @@ h3 {
 }
 
 .category-button {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -472,14 +517,28 @@ h3 {
   cursor: pointer;
 }
 
-.category-button:hover,
+.category-button:hover {
+  background: var(--panel-2);
+  color: var(--text);
+}
+
 .category-button.is-active {
   background: var(--panel-3);
   color: var(--text);
 }
 
-.category-button.is-active {
-  box-shadow: inset 3px 0 0 var(--accent);
+/* Short accent bar, the way Windows marks a selected item. A full-height edge
+   fights the rounded corners and reads as a stray sliver. */
+.category-button.is-active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  translate: 0 -50%;
+  width: 3px;
+  height: 16px;
+  border-radius: 2px;
+  background: var(--accent);
 }
 
 .category-count {
