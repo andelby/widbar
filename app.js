@@ -41,11 +41,14 @@ const revealObserver = !prefersReducedMotion && "IntersectionObserver" in window
   }, { threshold: 0.16, rootMargin: "0px 0px -8% 0px" })
   : null;
 
+// Icon URLs in the catalog are absolute because WidBar downloads them itself,
+// but the website has to load them from whichever host is serving this page:
+// GitHub Pages today, widbar.app from the Raspberry Pi.
+const ownAssetUrl = /^https?:\/\/(?:andelby\.github\.io\/widbar|(?:www\.)?widbar\.app)\/(assets\/.+)$/;
+
 function localAsset(url) {
-  const prefix = "https://andelby.github.io/winbar-showcase/";
-  return typeof url === "string" && url.startsWith(prefix)
-    ? url.slice(prefix.length)
-    : url;
+  const match = typeof url === "string" ? url.match(ownAssetUrl) : null;
+  return match ? match[1] : url;
 }
 
 function prepareReveal(element) {
