@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T23:03:34Z",
+  "updatedAt": "2026-09-26T00:00:00Z",
   "categories": [
     {
       "id": "system",
@@ -612,6 +612,89 @@
           "name": "新聞",
           "summary": "直接在 Windows 工作列查看焦點新聞與可信來源的報導。",
           "description": "追蹤 Google 新聞主題、在地新聞與已儲存的文章，或加入自己的 RSS 來源，並自訂工作列預覽與簡潔的閱讀檢視。"
+        }
+      }
+    },
+    {
+      "id": "calendar",
+      "pluginId": "com.widbar.calendar",
+      "name": "Calendar",
+      "summary": "Your day, your meetings and every calendar on the Windows taskbar.",
+      "description": "See the day at a glance, join online meetings straight from the taskbar, and add, edit or answer events without leaving it. Connects Microsoft 365 and Google Calendar, or subscribes to any ICS address.",
+      "publisher": "Andrea Del Bello",
+      "category": "productivity",
+      "storeProductId": "9N4FFRZ709RM",
+      "iconUrl": "https://andelby.github.io/widbar/assets/calendar.png",
+      "localizations": {
+        "it-IT": {
+          "name": "Calendario",
+          "summary": "La tua giornata, le riunioni e tutti i calendari sulla barra di Windows.",
+          "description": "Vedi la giornata a colpo d'occhio, partecipa alle riunioni online direttamente dalla barra e aggiungi, modifica o rispondi agli eventi senza uscirne. Collega Microsoft 365 e Google Calendar, oppure iscriviti a qualsiasi indirizzo ICS."
+        },
+        "de-DE": {
+          "name": "Kalender",
+          "summary": "Dein Tag, deine Besprechungen und alle Kalender in der Windows-Taskleiste.",
+          "description": "Sieh den Tag auf einen Blick, tritt Onlinebesprechungen direkt aus der Taskleiste bei und füge Termine hinzu, bearbeite sie oder antworte darauf, ohne sie zu verlassen. Verbindet Microsoft 365 und Google Kalender oder abonniert jede ICS-Adresse."
+        },
+        "es-ES": {
+          "name": "Calendario",
+          "summary": "Tu día, tus reuniones y todos los calendarios en la barra de tareas de Windows.",
+          "description": "Consulta el día de un vistazo, únete a las reuniones en línea desde la barra de tareas y añade, edita o responde eventos sin salir de ella. Conecta Microsoft 365 y Google Calendar, o suscríbete a cualquier dirección ICS."
+        },
+        "fr-FR": {
+          "name": "Agenda",
+          "summary": "Votre journée, vos réunions et tous vos agendas dans la barre des tâches Windows.",
+          "description": "Voyez la journée d'un coup d'œil, rejoignez les réunions en ligne depuis la barre des tâches et ajoutez, modifiez ou répondez aux événements sans la quitter. Connecte Microsoft 365 et Google Agenda, ou s'abonne à n'importe quelle adresse ICS."
+        },
+        "ja-JP": {
+          "name": "カレンダー",
+          "summary": "一日の予定、会議、すべてのカレンダーを Windows のタスク バーに。",
+          "description": "一日をひと目で確認し、オンライン会議にタスク バーから参加。予定の追加も編集も出欠の返答もその場でできます。Microsoft 365 と Google カレンダーに接続でき、ICS アドレスの購読にも対応します。"
+        },
+        "ko-KR": {
+          "name": "캘린더",
+          "summary": "하루 일정과 회의, 모든 캘린더를 Windows 작업 표시줄에.",
+          "description": "하루를 한눈에 보고, 온라인 회의에 작업 표시줄에서 바로 참가하고, 일정을 추가·편집하거나 초대에 응답할 수 있습니다. Microsoft 365와 Google 캘린더를 연결하거나 ICS 주소를 구독하세요."
+        },
+        "nl-NL": {
+          "name": "Agenda",
+          "summary": "Je dag, je vergaderingen en al je agenda's op de Windows-taakbalk.",
+          "description": "Bekijk de dag in één oogopslag, neem deel aan onlinevergaderingen vanaf de taakbalk en voeg afspraken toe, bewerk ze of beantwoord uitnodigingen zonder de taakbalk te verlaten. Koppelt Microsoft 365 en Google Agenda, of abonneert op elk ICS-adres."
+        },
+        "pl-PL": {
+          "name": "Kalendarz",
+          "summary": "Twój dzień, spotkania i wszystkie kalendarze na pasku zadań Windows.",
+          "description": "Zobacz dzień na pierwszy rzut oka, dołączaj do spotkań online prosto z paska zadań i dodawaj, edytuj lub odpowiadaj na wydarzenia bez jego opuszczania. Łączy Microsoft 365 i Kalendarz Google albo subskrybuje dowolny adres ICS."
+        },
+        "pt-BR": {
+          "name": "Agenda",
+          "summary": "Seu dia, suas reuniões e todos os calendários na barra de tarefas do Windows.",
+          "description": "Veja o dia num relance, entre em reuniões online direto da barra de tarefas e adicione, edite ou responda a eventos sem sair dela. Conecta o Microsoft 365 e o Google Agenda, ou assina qualquer endereço ICS."
+        },
+        "pt-PT": {
+          "name": "Calendário",
+          "summary": "O seu dia, as suas reuniões e todos os calendários na barra de tarefas do Windows.",
+          "description": "Veja o dia num relance, participe em reuniões online a partir da barra de tarefas e adicione, edite ou responda a eventos sem sair dela. Liga o Microsoft 365 e o Google Calendar, ou subscreve qualquer endereço ICS."
+        },
+        "ru-RU": {
+          "name": "Календарь",
+          "summary": "Ваш день, встречи и все календари на панели задач Windows.",
+          "description": "Смотрите день одним взглядом, подключайтесь к онлайн-встречам прямо с панели задач и добавляйте, изменяйте события или отвечайте на приглашения, не покидая её. Подключает Microsoft 365 и Google Календарь или подписывается на любой адрес ICS."
+        },
+        "uk-UA": {
+          "name": "Календар",
+          "summary": "Ваш день, наради й усі календарі на панелі завдань Windows.",
+          "description": "Огляньте день одним поглядом, приєднуйтеся до онлайн-нарад прямо з панелі завдань і додавайте, змінюйте події чи відповідайте на запрошення, не залишаючи її. Підключає Microsoft 365 і Google Календар або підписується на будь-яку адресу ICS."
+        },
+        "zh-CN": {
+          "name": "日历",
+          "summary": "把一天的日程、会议和所有日历放到 Windows 任务栏。",
+          "description": "一眼看清一天的安排，从任务栏直接加入在线会议，并在原地添加、编辑事件或回复邀请。可连接 Microsoft 365 和 Google 日历，也支持订阅任意 ICS 地址。"
+        },
+        "zh-TW": {
+          "name": "行事曆",
+          "summary": "把一天的行程、會議和所有行事曆放到 Windows 工作列。",
+          "description": "一眼看清一天的安排，從工作列直接加入線上會議，並在原地新增、編輯活動或回覆邀請。可連接 Microsoft 365 與 Google 日曆，也支援訂閱任意 ICS 網址。"
         }
       }
     }
