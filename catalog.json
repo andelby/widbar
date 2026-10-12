@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-26T00:00:00Z",
+  "updatedAt": "2026-10-12T11:06:01Z",
   "categories": [
     {
       "id": "system",
@@ -695,6 +695,89 @@
           "name": "行事曆",
           "summary": "把一天的行程、會議和所有行事曆放到 Windows 工作列。",
           "description": "一眼看清一天的安排，從工作列直接加入線上會議，並在原地新增、編輯活動或回覆邀請。可連接 Microsoft 365 與 Google 日曆，也支援訂閱任意 ICS 網址。"
+        }
+      }
+    },
+    {
+      "id": "multitool",
+      "pluginId": "com.widbar.multitool",
+      "name": "MultiTool",
+      "summary": "Virtual desktops, quick toggles, window snapping and power mode, right on the Windows taskbar.",
+      "description": "Switch virtual desktops, mute the microphone, turn Wi-Fi or Bluetooth off, change the power mode, snap a window or keep the PC awake with one click, without opening Settings or Quick Settings.",
+      "publisher": "Andrea Del Bello",
+      "category": "utility",
+      "storeProductId": "9PPRS4PD8PBT",
+      "iconUrl": "https://andelby.github.io/widbar/assets/multitool.png",
+      "localizations": {
+        "it-IT": {
+          "name": "MultiTool",
+          "summary": "Desktop virtuali, interruttori rapidi, ancoraggio delle finestre e modalità risparmio energia, direttamente sulla taskbar di Windows.",
+          "description": "Cambia desktop virtuale, disattiva il microfono, spegni Wi-Fi o Bluetooth, cambia la modalità risparmio energia, ancora una finestra o mantieni attivo il PC con un clic, senza aprire Impostazioni o le Impostazioni rapide."
+        },
+        "de-DE": {
+          "name": "MultiTool",
+          "summary": "Virtuelle Desktops, Schnellschalter, Fensterandocken und Energiemodus direkt in der Windows-Taskleiste.",
+          "description": "Wechsle den virtuellen Desktop, schalte das Mikrofon stumm, schalte WLAN oder Bluetooth aus, ändere den Energiemodus, docke ein Fenster an oder halte den PC mit einem Klick wach, ohne die Einstellungen oder die Schnelleinstellungen zu öffnen."
+        },
+        "es-ES": {
+          "name": "MultiTool",
+          "summary": "Escritorios virtuales, interruptores rápidos, acoplamiento de ventanas y modo de energía, directamente en la barra de tareas de Windows.",
+          "description": "Cambia de escritorio virtual, silencia el micrófono, desactiva el Wi-Fi o el Bluetooth, cambia el modo de energía, acopla una ventana o mantén el PC activo con un clic, sin abrir Configuración ni la Configuración rápida."
+        },
+        "fr-FR": {
+          "name": "MultiTool",
+          "summary": "Bureaux virtuels, bascules rapides, ancrage des fenêtres et mode d'alimentation, directement dans la barre des tâches Windows.",
+          "description": "Changez de bureau virtuel, coupez le micro, désactivez le Wi-Fi ou le Bluetooth, changez le mode d'alimentation, ancrez une fenêtre ou gardez le PC éveillé en un clic, sans ouvrir les Paramètres ni les Paramètres rapides."
+        },
+        "ja-JP": {
+          "name": "MultiTool",
+          "summary": "仮想デスクトップ、クイック切り替え、ウィンドウのスナップ、電源モードを Windows のタスクバーから操作できます。",
+          "description": "仮想デスクトップの切り替え、マイクのミュート、Wi-Fi や Bluetooth のオフ、電源モードの変更、ウィンドウのスナップ、PC のスリープ防止をワンクリックで行えます。設定やクイック設定を開く必要はありません。"
+        },
+        "ko-KR": {
+          "name": "MultiTool",
+          "summary": "가상 데스크톱, 빠른 전환, 창 맞춤, 전원 모드를 Windows 작업 표시줄에서 바로 사용하세요.",
+          "description": "가상 데스크톱 전환, 마이크 음소거, Wi-Fi 또는 Bluetooth 끄기, 전원 모드 변경, 창 맞춤, PC 절전 방지를 클릭 한 번으로 할 수 있습니다. 설정이나 빠른 설정을 열 필요가 없습니다."
+        },
+        "nl-NL": {
+          "name": "MultiTool",
+          "summary": "Virtuele bureaubladen, snelle schakelaars, vensters uitlijnen en energiemodus, rechtstreeks op de Windows-taakbalk.",
+          "description": "Wissel van virtueel bureaublad, demp de microfoon, zet wifi of Bluetooth uit, wijzig de energiemodus, lijn een venster uit of houd de pc met één klik wakker, zonder Instellingen of Snelle instellingen te openen."
+        },
+        "pl-PL": {
+          "name": "MultiTool",
+          "summary": "Pulpity wirtualne, szybkie przełączniki, przyciąganie okien i tryb zasilania bezpośrednio na pasku zadań Windows.",
+          "description": "Przełączaj pulpity wirtualne, wyciszaj mikrofon, wyłączaj Wi-Fi lub Bluetooth, zmieniaj tryb zasilania, przyciągaj okna albo nie pozwól komputerowi zasnąć jednym kliknięciem, bez otwierania Ustawień ani Szybkich ustawień."
+        },
+        "pt-BR": {
+          "name": "MultiTool",
+          "summary": "Áreas de trabalho virtuais, botões rápidos, ajuste de janelas e modo de energia, diretamente na barra de tarefas do Windows.",
+          "description": "Troque de área de trabalho virtual, silencie o microfone, desligue o Wi-Fi ou o Bluetooth, mude o modo de energia, ajuste uma janela ou mantenha o PC ativo com um clique, sem abrir as Configurações ou as Configurações rápidas."
+        },
+        "pt-PT": {
+          "name": "MultiTool",
+          "summary": "Ambientes de trabalho virtuais, botões rápidos, ajuste de janelas e modo de energia, diretamente na barra de tarefas do Windows.",
+          "description": "Mude de ambiente de trabalho virtual, desative o microfone, desligue o Wi-Fi ou o Bluetooth, altere o modo de energia, ajuste uma janela ou mantenha o PC ativo com um clique, sem abrir as Definições ou as Definições rápidas."
+        },
+        "ru-RU": {
+          "name": "MultiTool",
+          "summary": "Виртуальные рабочие столы, быстрые переключатели, привязка окон и режим питания прямо на панели задач Windows.",
+          "description": "Переключайте виртуальные рабочие столы, отключайте микрофон, выключайте Wi-Fi или Bluetooth, меняйте режим питания, привязывайте окна или не давайте ПК уснуть одним щелчком, не открывая Параметры и быстрые параметры."
+        },
+        "uk-UA": {
+          "name": "MultiTool",
+          "summary": "Віртуальні робочі столи, швидкі перемикачі, прив'язування вікон і режим живлення просто на панелі завдань Windows.",
+          "description": "Перемикайте віртуальні робочі столи, вимикайте мікрофон, Wi-Fi або Bluetooth, змінюйте режим живлення, прив'язуйте вікна або не давайте ПК заснути одним клацанням, не відкриваючи Параметри й швидкі параметри."
+        },
+        "zh-CN": {
+          "name": "MultiTool",
+          "summary": "直接在 Windows 任务栏使用虚拟桌面、快速开关、窗口贴靠和电源模式。",
+          "description": "一键切换虚拟桌面、将麦克风静音、关闭 Wi-Fi 或蓝牙、更改电源模式、贴靠窗口或让电脑保持唤醒，无需打开设置或快速设置。"
+        },
+        "zh-TW": {
+          "name": "MultiTool",
+          "summary": "直接在 Windows 工作列使用虛擬桌面、快速開關、視窗貼齊與電源模式。",
+          "description": "一鍵切換虛擬桌面、將麥克風靜音、關閉 Wi-Fi 或藍牙、變更電源模式、貼齊視窗或讓電腦保持喚醒，無需開啟設定或快速設定。"
         }
       }
     }
