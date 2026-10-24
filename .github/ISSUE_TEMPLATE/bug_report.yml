@@ -1,0 +1,111 @@
+name: Bug report
+description: Something in WidBar or one of its widgets does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Please search the existing issues first: if yours is already there, add what you know to it instead.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Where is the problem?
+      options:
+        - WidBar (the app, the taskbar layout, Smart Stack)
+        - Calendar
+        - Media
+        - MultiTool
+        - News
+        - Pomodoro Focus
+        - Shelf
+        - Stock Watcher
+        - System Metrics
+        - Weather
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: "WidBar shows its version in Settings / About. For a widget: Open widgets page in WidBar application to see widget version."
+      placeholder: WidBar 1.2.9.0, Weather 2.0.2.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source
+    attributes:
+      label: Installed from
+      options:
+        - Microsoft Store
+        - winget
+        - GitHub release
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Run winver to see it.
+      placeholder: Windows 11 25H2, build 26200.xxxx
+    validations:
+      required: true
+
+  - type: textarea
+    id: setup
+    attributes:
+      label: Displays and taskbar
+      description: Many problems depend on these. Leave out what you do not know.
+      placeholder: |
+        2 displays: 2560x1440 at 125% (main) and 1920x1080 at 100%.
+        Taskbar centred, auto-hide off, small taskbar buttons off. Dark theme.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the Weather flyout.
+        2. Switch Windows to the light theme.
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Drag the log files here. Paste the path into the File Explorer address bar to open the folder.
+        WidBar: `%LOCALAPPDATA%\Packages\30113AndreaDelBello.WidBar-WidgetTaskbarsystem_2mj5svk4jk01m\LocalState\Logs` (widbar.log)
+        A widget: the same path with the widget's folder, for example `%LOCALAPPDATA%\Packages\30113AndreaDelBello.Weather-WidBarWidget_2mj5svk4jk01m\LocalState\Logs`
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or a short video
+      description: Drag them here. They help a lot with anything visual.
+
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Before sending
+      options:
+        - label: I searched the existing issues and this one is not there yet.
+          required: true
