@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T11:06:01Z",
+  "updatedAt": "Tue 2026-10-20 9:10 AM CST (UTC+08:00)",
   "categories": [
     {
       "id": "system",
@@ -29,7 +29,7 @@
     {
       "id": "utility",
       "name": "Utility",
-      "glyph": "\uE90F",
+      "glyph": "",
       "order": 50
     }
   ],
@@ -778,6 +778,24 @@
           "name": "MultiTool",
           "summary": "直接在 Windows 工作列使用虛擬桌面、快速開關、視窗貼齊與電源模式。",
           "description": "一鍵切換虛擬桌面、將麥克風靜音、關閉 Wi-Fi 或藍牙、變更電源模式、貼齊視窗或讓電腦保持喚醒，無需開啟設定或快速設定。"
+        }
+      }
+    },
+    {
+      "id": "lyrics-player",
+      "pluginId": "com.hq970123.lyricsplayer",
+      "name": "Lyrics Player",
+      "summary": "Synced lyrics for whatever is playing, right on your Windows 11 taskbar.",
+      "description": "Shows the cover, title and artist with karaoke-style synced lyrics and playback controls. Follows any player that uses Windows media controls (Spotify, NetEase Cloud Music, QQ Music, browsers).",
+      "publisher": "边境悍匪TT",
+      "category": "media",
+      "storeProductId": "9PNZBDK8Q4WG",
+      "iconUrl": "https://raw.githubusercontent.com/hq970123/LyricsPlayer/main/LyricsPlayer%20(Package)/Images/StoreLogo.scale-400.png",
+      "localizations": {
+        "zh-CN": {
+          "name": "歌词",
+          "summary": "在 Windows 11 任务栏上显示正在播放歌曲的同步歌词。",
+          "description": "显示封面、歌名和歌手，逐字卡拉OK高亮同步歌词并提供播放控制；支持网易云音乐、QQ 音乐、Spotify、浏览器等任何接入系统媒体控制的播放器。"
         }
       }
     }
