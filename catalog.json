@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T11:06:01Z",
+  "updatedAt": "2026-11-14T14:56:52Z",
   "categories": [
     {
       "id": "system",
@@ -43,7 +43,7 @@
       "publisher": "Andrea Del Bello",
       "category": "system",
       "storeProductId": "9NM2BN1X33CQ",
-      "iconUrl": "https://andelby.github.io/widbar/assets/system-metrics.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/system-metrics.png?v=2",
       "localizations": {
         "it-IT": {
           "name": "Metriche di sistema",
@@ -126,7 +126,7 @@
       "publisher": "Andrea Del Bello",
       "category": "media",
       "storeProductId": "9NBVCHS7JR0C",
-      "iconUrl": "https://andelby.github.io/widbar/assets/media-now-playing.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/media-now-playing.png?v=2",
       "localizations": {
         "it-IT": {
           "name": "Media in riproduzione",
@@ -209,7 +209,7 @@
       "publisher": "Andrea Del Bello",
       "category": "productivity",
       "storeProductId": "9NWRJ4D65DHS",
-      "iconUrl": "https://andelby.github.io/widbar/assets/pomodoro-focus.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/pomodoro-focus.png?v=2",
       "localizations": {
         "it-IT": {
           "name": "Pomodoro Focus",
@@ -292,7 +292,7 @@
       "publisher": "Andrea Del Bello",
       "category": "information",
       "storeProductId": "9MWK4X22QL4M",
-      "iconUrl": "https://andelby.github.io/widbar/assets/stock-watcher.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/stock-watcher.png?v=2",
       "localizations": {
         "it-IT": {
           "name": "Stock Watcher",
@@ -375,7 +375,7 @@
       "publisher": "Andrea Del Bello",
       "category": "utility",
       "storeProductId": "9P18QNL4TC4G",
-      "iconUrl": "https://andelby.github.io/widbar/assets/shelf.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/shelf.png?v=2",
       "localizations": {
         "it-IT": {
           "name": "Shelf",
@@ -458,7 +458,7 @@
       "publisher": "Andrea Del Bello",
       "category": "information",
       "storeProductId": "9N4CS86Q7NV2",
-      "iconUrl": "https://andelby.github.io/widbar/assets/weather.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/weather.png?v=2",
       "localizations": {
         "it-IT": {
           "name": "Meteo",
@@ -541,7 +541,7 @@
       "publisher": "Andrea Del Bello",
       "category": "information",
       "storeProductId": "9PGD54S2M2WR",
-      "iconUrl": "https://andelby.github.io/widbar/assets/news.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/news.png?v=2",
       "localizations": {
         "it-IT": {
           "name": "Notizie",
@@ -624,7 +624,7 @@
       "publisher": "Andrea Del Bello",
       "category": "productivity",
       "storeProductId": "9N4FFRZ709RM",
-      "iconUrl": "https://andelby.github.io/widbar/assets/calendar.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/calendar.png?v=2",
       "localizations": {
         "it-IT": {
           "name": "Calendario",
@@ -707,7 +707,7 @@
       "publisher": "Andrea Del Bello",
       "category": "utility",
       "storeProductId": "9PPRS4PD8PBT",
-      "iconUrl": "https://andelby.github.io/widbar/assets/multitool.png",
+      "iconUrl": "https://andelby.github.io/widbar/assets/multitool.png?v=2",
       "localizations": {
         "it-IT": {
           "name": "MultiTool",
