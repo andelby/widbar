@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T14:56:52Z",
+  "updatedAt": "2026-11-19T21:50:36Z",
   "categories": [
     {
       "id": "system",
@@ -778,6 +778,44 @@
           "name": "MultiTool",
           "summary": "直接在 Windows 工作列使用虛擬桌面、快速開關、視窗貼齊與電源模式。",
           "description": "一鍵切換虛擬桌面、將麥克風靜音、關閉 Wi-Fi 或藍牙、變更電源模式、貼齊視窗或讓電腦保持喚醒，無需開啟設定或快速設定。"
+        }
+      }
+    },
+    {
+      "id": "claude-usage",
+      "pluginId": "com.claudeusage.widget",
+      "name": "Claude Usage for WidBar",
+      "summary": "Your Claude plan limits and token usage on the taskbar.",
+      "description": "See your 5-hour and weekly Claude limits as progress rings, with reset times, estimated API cost, usage by day and by model, and optional totals across several computers. Unofficial: not affiliated with Anthropic.",
+      "publisher": "cheater.dev",
+      "category": "information",
+      "storeProductId": "9NQVQ3L6DPQ9",
+      "iconUrl": "https://andelby.github.io/widbar/assets/claude-usage.png?v=1",
+      "localizations": {
+        "it-IT": {
+          "name": "Claude Usage for WidBar",
+          "summary": "I limiti del tuo piano Claude e l'uso dei token sulla taskbar.",
+          "description": "Vedi i limiti Claude di 5 ore e settimanali come anelli di avanzamento, con orari di reset, costo API stimato, uso per giorno e per modello e, facoltativamente, i totali di più computer. Non ufficiale: non affiliato ad Anthropic."
+        },
+        "de-DE": {
+          "name": "Claude Usage for WidBar",
+          "summary": "Deine Claude-Planlimits und Token-Nutzung in der Taskleiste.",
+          "description": "Sieh dein 5-Stunden- und Wochenlimit von Claude als Fortschrittsringe, mit Reset-Zeiten, geschätzten API-Kosten, Nutzung nach Tag und Modell und optional den Summen mehrerer Computer. Inoffiziell: nicht mit Anthropic verbunden."
+        },
+        "es-ES": {
+          "name": "Claude Usage for WidBar",
+          "summary": "Los límites de tu plan de Claude y el uso de tokens en la barra de tareas.",
+          "description": "Consulta tus límites de Claude de 5 horas y semanales como anillos de progreso, con horas de reinicio, coste de API estimado, uso por día y por modelo y, opcionalmente, los totales de varios equipos. No oficial: sin relación con Anthropic."
+        },
+        "fr-FR": {
+          "name": "Claude Usage for WidBar",
+          "summary": "Les limites de votre forfait Claude et l'usage des jetons dans la barre des tâches.",
+          "description": "Consultez vos limites Claude sur 5 heures et hebdomadaires sous forme d'anneaux de progression, avec les heures de réinitialisation, le coût API estimé, l'usage par jour et par modèle et, en option, les totaux de plusieurs ordinateurs. Non officiel : sans lien avec Anthropic."
+        },
+        "uk-UA": {
+          "name": "Claude Usage for WidBar",
+          "summary": "Ліміти вашого плану Claude і використання токенів на панелі завдань.",
+          "description": "Дивіться ліміти Claude на 5 годин і на тиждень у вигляді кілець прогресу, з часом скидання, орієнтовною вартістю API, використанням за днями й моделями та, за бажання, сумою з кількох комп'ютерів. Неофіційний: не пов'язаний з Anthropic."
         }
       }
     }
