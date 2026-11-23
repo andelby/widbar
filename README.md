@@ -51,6 +51,7 @@ WidBar puts widgets in the empty space of your taskbar, right next to your apps.
 | Pomodoro Focus | Pomodoro timer and stopwatch. | [9NWRJ4D65DHS](https://apps.microsoft.com/detail/9NWRJ4D65DHS) |
 | Shelf | Keep files, folders and clipboard items within reach. | [9P18QNL4TC4G](https://apps.microsoft.com/detail/9P18QNL4TC4G) |
 | MultiTool | Virtual desktops, quick toggles, window snapping and power mode. | [9PPRS4PD8PBT](https://apps.microsoft.com/detail/9PPRS4PD8PBT) |
+| Sports Scores | Live scores, fixtures and standings for the leagues and teams you follow. | [9NWD40N6JXQN](https://apps.microsoft.com/detail/9NWD40N6JXQN) |
 
 ## Install
 

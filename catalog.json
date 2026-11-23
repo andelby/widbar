@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T21:50:36Z",
+  "updatedAt": "2026-11-23T22:30:00Z",
   "categories": [
     {
       "id": "system",
@@ -816,6 +816,89 @@
           "name": "Claude Usage for WidBar",
           "summary": "Ліміти вашого плану Claude і використання токенів на панелі завдань.",
           "description": "Дивіться ліміти Claude на 5 годин і на тиждень у вигляді кілець прогресу, з часом скидання, орієнтовною вартістю API, використанням за днями й моделями та, за бажання, сумою з кількох комп'ютерів. Неофіційний: не пов'язаний з Anthropic."
+        }
+      }
+    },
+    {
+      "id": "sports-scores",
+      "pluginId": "com.widbar.livescore",
+      "name": "Sports Scores",
+      "summary": "Live scores, fixtures and standings for the leagues and teams you follow.",
+      "description": "Follow soccer, basketball, tennis, motorsport and more from the Windows taskbar, with your teams first, goal alerts and every league's matches and standings one click away.",
+      "publisher": "Andrea Del Bello",
+      "category": "information",
+      "storeProductId": "9NWD40N6JXQN",
+      "iconUrl": "https://andelby.github.io/widbar/assets/sports-scores.png",
+      "localizations": {
+        "it-IT": {
+          "name": "Sports Scores",
+          "summary": "Risultati in diretta, calendario e classifiche dei campionati e delle squadre che segui.",
+          "description": "Segui calcio, basket, tennis, motori e altro dalla taskbar di Windows, con le tue squadre in primo piano, gli avvisi dei gol e partite e classifiche di ogni campionato a un clic."
+        },
+        "de-DE": {
+          "name": "Sports Scores",
+          "summary": "Live-Ergebnisse, Spielpläne und Tabellen der Ligen und Teams, denen du folgst.",
+          "description": "Verfolge Fußball, Basketball, Tennis, Motorsport und mehr in der Windows-Taskleiste, mit deinen Teams an erster Stelle, Tor-Hinweisen und den Spielen und Tabellen jeder Liga nur einen Klick entfernt."
+        },
+        "es-ES": {
+          "name": "Sports Scores",
+          "summary": "Resultados en directo, calendario y clasificaciones de las ligas y equipos que sigues.",
+          "description": "Sigue fútbol, baloncesto, tenis, motor y mucho más desde la barra de tareas de Windows, con tus equipos primero, avisos de gol y los partidos y clasificaciones de cada liga a un clic."
+        },
+        "fr-FR": {
+          "name": "Sports Scores",
+          "summary": "Scores en direct, calendrier et classements des championnats et des équipes que vous suivez.",
+          "description": "Suivez le football, le basket, le tennis, le sport automobile et plus encore depuis la barre des tâches Windows, avec vos équipes en premier, des alertes de but et les matchs et classements de chaque championnat à portée de clic."
+        },
+        "ja-JP": {
+          "name": "Sports Scores",
+          "summary": "フォローしているリーグとチームのライブスコア、日程、順位表。",
+          "description": "サッカー、バスケットボール、テニス、モータースポーツなどを Windows のタスクバーから追えます。フォロー中のチームを優先して表示し、ゴールを通知し、各リーグの試合と順位表もワンクリックで確認できます。"
+        },
+        "ko-KR": {
+          "name": "Sports Scores",
+          "summary": "팔로우하는 리그와 팀의 실시간 점수, 일정, 순위.",
+          "description": "축구, 농구, 테니스, 모터스포츠 등을 Windows 작업 표시줄에서 확인하세요. 내 팀이 먼저 표시되고, 골 알림을 받고, 각 리그의 경기와 순위를 클릭 한 번으로 볼 수 있습니다."
+        },
+        "nl-NL": {
+          "name": "Sports Scores",
+          "summary": "Live uitslagen, programma's en standen van de competities en teams die je volgt.",
+          "description": "Volg voetbal, basketbal, tennis, autosport en meer vanaf de Windows-taakbalk, met je eigen teams voorop, doelpuntmeldingen en de wedstrijden en standen van elke competitie met één klik."
+        },
+        "pl-PL": {
+          "name": "Sports Scores",
+          "summary": "Wyniki na żywo, terminarze i tabele lig oraz drużyn, które obserwujesz.",
+          "description": "Śledź piłkę nożną, koszykówkę, tenis, sporty motorowe i nie tylko z paska zadań Windows: Twoje drużyny są na pierwszym miejscu, dostajesz powiadomienia o golach, a mecze i tabele każdej ligi masz o jedno kliknięcie."
+        },
+        "pt-BR": {
+          "name": "Sports Scores",
+          "summary": "Placares ao vivo, agenda e classificação das ligas e times que você segue.",
+          "description": "Acompanhe futebol, basquete, tênis, automobilismo e muito mais pela barra de tarefas do Windows, com seus times em primeiro lugar, alertas de gol e os jogos e a classificação de cada liga a um clique."
+        },
+        "pt-PT": {
+          "name": "Sports Scores",
+          "summary": "Resultados em direto, calendário e classificações das ligas e equipas que segue.",
+          "description": "Acompanhe futebol, basquetebol, ténis, automobilismo e muito mais a partir da barra de tarefas do Windows, com as suas equipas em primeiro lugar, alertas de golo e os jogos e classificações de cada liga à distância de um clique."
+        },
+        "ru-RU": {
+          "name": "Sports Scores",
+          "summary": "Счёт в реальном времени, расписание и турнирные таблицы лиг и команд, за которыми вы следите.",
+          "description": "Следите за футболом, баскетболом, теннисом, автоспортом и не только прямо с панели задач Windows: ваши команды на первом месте, уведомления о голах, а матчи и таблицы каждой лиги в один щелчок."
+        },
+        "uk-UA": {
+          "name": "Sports Scores",
+          "summary": "Рахунок у реальному часі, розклад і турнірні таблиці ліг і команд, за якими ви стежите.",
+          "description": "Стежте за футболом, баскетболом, тенісом, автоспортом та іншим прямо з панелі завдань Windows: ваші команди на першому місці, сповіщення про голи, а матчі й таблиці кожної ліги за одне клацання."
+        },
+        "zh-CN": {
+          "name": "Sports Scores",
+          "summary": "你关注的联赛和球队的实时比分、赛程和积分榜。",
+          "description": "直接从 Windows 任务栏关注足球、篮球、网球、赛车等赛事，你的球队优先显示，进球即时提醒，每个联赛的比赛和积分榜一键可看。"
+        },
+        "zh-TW": {
+          "name": "Sports Scores",
+          "summary": "你關注的聯賽與球隊的即時比分、賽程與積分榜。",
+          "description": "直接從 Windows 工作列關注足球、籃球、網球、賽車等賽事，你的球隊優先顯示，進球即時提醒，每個聯賽的比賽與積分榜一鍵即可查看。"
         }
       }
     }
